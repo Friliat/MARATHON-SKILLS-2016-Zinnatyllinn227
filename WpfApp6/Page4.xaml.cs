@@ -27,7 +27,7 @@ namespace WpfApp6
 
         private void Reg_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame4.Navigate(new Page6());
         }
 
         private void Otmen_Click(object sender, RoutedEventArgs e)

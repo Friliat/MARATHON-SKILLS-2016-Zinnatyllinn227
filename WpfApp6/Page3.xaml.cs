@@ -27,12 +27,12 @@ namespace WpfApp6
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame3.Navigate(new Page5());
         }
 
         private void Cansel_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame3.Navigate(new Page1());
         }
     }
 }
